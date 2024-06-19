@@ -1,0 +1,315 @@
+#aDogFace, #aDogEyeLeft, #aDogEyeRight, #aDogNose, #aDogMouthLeft, #aDogMouthRight, #aDogEarsLeft, #aDogEarsRight {
+    opacity: 0;
+}
+        
+html body {
+    max-width: 100%;
+    height: auto;
+}
+
+#rightLeg {
+    animation: rightLeg 5s forwards ;
+}
+
+@keyframes rightLeg {
+    0%{
+        transform:translate(10%); 
+    }
+
+    50%{
+        transform:translate(30%); 
+    }
+}
+
+#leftLeg {
+    animation: leftLeg 5s forwards ;
+}
+
+@keyframes leftLeg {
+    0%{
+        transform:translate(10%); 
+    }
+
+
+
+    50%{
+        transform:translate(30%); 
+    }
+}
+
+#rightHand {
+    animation: rightHand 5s forwards ; 
+}
+
+@keyframes rightHand {
+    0%{
+        transform:translate(10%); 
+    }
+
+    50%{
+        transform:translate(30%); 
+    }
+    
+}
+
+#leftHand {
+    animation: leftHand 5s forwards ;
+}
+
+@keyframes leftHand {
+    0%{
+        transform:translate(10%); 
+    }
+
+
+
+    50%{
+        transform:translate(30%); 
+    }
+}
+
+#body {
+    animation: body 5s forwards ;
+}
+
+@keyframes body {
+    0%{
+        transform:translate(10%); 
+    }
+
+
+
+    50%{
+        transform:translate(30%); 
+    }
+}
+
+#face {
+    animation: face 5s forwards ;
+}
+
+@keyframes face {
+    0%{
+        transform:translate(10%); 
+    }
+
+
+
+    50%{
+        transform:translate(30%); 
+    }
+}
+
+#leftHand {
+    animation: leftHand 5s forwards ;
+}
+
+@keyframes leftHand {
+    0%{
+        transform:translate(10%); 
+    }
+
+
+
+    50%{
+        transform:translate(30%); 
+    }
+}
+
+/* dog movement */
+#aDogFace {
+    animation: aDogFace 5s forwards ;
+}
+
+@keyframes aDogFace {
+    0%{
+        transform:translateX(0); 
+        
+    }
+
+    50%{
+        transform:translateX(100px); 
+        
+    }
+
+    100%{
+        transform: translateX(-250px);
+       
+    }
+
+}
+
+#aDogEyeLeft {
+    animation: aDogEyeLeft 5s forwards ;
+}
+
+@keyframes aDogEyeLeft {
+    0%{
+        transform:translateX(0); 
+        
+    }
+
+    50%{
+        transform:translateX(100px); 
+        
+    }
+
+    100%{
+        transform: translateX(-250px);
+       
+    }
+
+}
+
+#aDogEyeRight {
+    animation: aDogEyeRight 5s forwards ;
+}
+
+@keyframes aDogEyeRight {
+    0%{
+        transform:translateX(0); 
+        
+    }
+
+
+    50%{
+        transform:translateX(100px); 
+        
+    }
+
+    100%{
+        transform: translateX(-250px);
+       
+    }
+
+}
+
+#aDogNose {
+    animation: aDogNose 5s forwards ;
+}
+
+@keyframes aDogNose {
+    0%{
+        transform:translateX(0); 
+        
+    }
+
+    50%{
+        transform:translateX(100px); 
+        
+    }
+
+    100%{
+        transform: translateX(-250px);
+       
+    }
+
+}
+
+#aDogMouthLeft {
+    animation: aDogMouthLeft 5s forwards ;
+}
+
+@keyframes aDogMouthLeft {
+    0%{
+        transform:translateX(0); 
+        
+    }
+
+    50%{
+        transform:translateX(100px); 
+        
+    }
+
+    100%{
+        transform: translateX(-250px);
+       
+    }
+
+}
+
+#aDogMouthRight {
+    animation: aDogMouthRight 5s forwards ;
+}
+
+@keyframes aDogMouthRight {
+    0%{
+        transform:translateX(0); 
+        
+    }
+
+    50%{
+        transform:translateX(100px); 
+        
+    }
+
+    100%{
+        transform: translateX(-250px);
+       
+    }
+
+}
+
+#aDogEarsLeft {
+    animation: aDogEarsLeft 5s forwards ;
+}
+
+@keyframes aDogEarsLeft {
+    0%{
+        transform:translateX(0); 
+        
+    }
+
+    50%{
+        transform:translateX(100px); 
+        
+    }
+
+    100%{
+        transform: translateX(-250px);
+       
+    }
+
+}
+
+#aDogEarsRight {
+    animation: aDogEarsRight 5s forwards ;
+}
+
+@keyframes aDogEarsRight {
+    0%{
+        transform:translateX(0); 
+        
+    }
+
+    50%{
+        transform:translateX(100px); 
+        
+    }
+
+    100%{
+        transform: translateX(-250px);
+       
+    }
+
+}
+
+#btn {
+    margin-left: 250px;
+    display: none;
+}
+
+#winner {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#winnerPhoto {
+    display: none;
+    text-align: center;
+}
+
+#caughtPhoto {
+    display: none;
+    text-align: center;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p id="winner"></p>
+    <p id="winnerPhoto"><img src="img/win.jpg" alt="Winner"></p>
+    <p id="caughtPhoto"><img src="img/caught.jpg" alt="I caught"></p>
+    <div id="svgBody">
+        <div id="svgDiv">
+        
+            <svg width="1200" height="500"  xmlns="http://www.w3.org/2000/svg" version="1.1">
+                
+                <!--house-->
+                   <line id="leftRoof" x1="920" y1="80" x2="800" y2="260" stroke="black" stroke-width="3"></line>
+                   <line id="rightRoof" x1="920" y1="80" x2="1040" y2="260" stroke="black" stroke-width="3"></line>
+                   <rect id="houseBody" x="800" y="260" height="180" width="240" fill="brown" stroke="black" stroke-width="3"></rect>
+               
+                <!--chimney-->
+                   <line id="leftSide" x1="980" y1="155" x2="980" y2="170" stroke="black" stroke-width="3"></line>
+                   <line id="rightSide" x1="1000" y1="125" x2="1000" y2="200" stroke="black" stroke-width="3"></line>
+                   <line id="upSide" x1="1000" y1="125" x2="980" y2="155" stroke="black" stroke-width="3"></line>
+
+                <!--door-->
+                   <rect id="door" x="800" y="360" height="80" width="60" fill="green" stroke="black" stroke-width="3"></rect>
+
+                <!--bell-->
+                   <rect id="bell" x="790" y="330" height="30" width="10" fill="black" stroke="black" stroke-width="3"></rect>
+                   <circle id="button" cx="790" cy="345" r="7"  stroke-width="2" fill="red" stroke="black"></circle>
+
+                <!--person-->
+                   <circle id="face" cx="400" cy="300" r="20"  stroke-width="2" fill="none" stroke="black"></circle>
+                   <line id="body" x1="400" y1="320" x2="400" y2="350" stroke="black" stroke-width="3"></line>
+                   <line id="leftHand" x1="400" y1="320" x2="380" y2="350" stroke="black" stroke-width="3"></line>
+                   <line id="rightHand" x1="400" y1="320" x2="430" y2="350" stroke="black" stroke-width="3"></line>
+                   <line id="leftLeg" x1="390" y1="440" x2="400" y2="350" stroke="black" stroke-width="3"></line>
+                   <line id="rightLeg" x1="400" y1="350" x2="420" y2="420" stroke="black" stroke-width="3"></line>
+
+                   <!-- A dog face -->
+                   <circle id="aDogFace" cx="750" cy="380" r="20"  stroke-width="2" fill="none" stroke="black"></circle>
+                   <circle id="aDogEyeLeft" cx="745" cy="375" r="2"  stroke-width="2" fill="black" stroke="black"></circle>
+                   <circle id="aDogEyeRight" cx="755" cy="375" r="2"  stroke-width="2" fill="black" stroke="black"></circle>
+                   <ellipse id="aDogNose" cx="750" cy="385" rx="7" ry="5" />
+                   <line id="aDogMouthLeft" x1="750" y1="390" x2="745" y2="400" stroke="black" stroke-width="3"></line>
+                   <line id="aDogMouthRight" x1="750" y1="390" x2="755" y2="400" stroke="black" stroke-width="3"></line>
+                   <ellipse id="aDogEarsLeft" cx="735" cy="355" rx="7" ry="10" />
+                   <ellipse id="aDogEarsRight" cx="765" cy="355" rx="7" ry="10" />
+
+                   <!-- A dog body -->
+        
+            </svg>
+                
+            </svg>
+        
+        </div>
+    </div><!--svgbody-->
+    <button id="btn">Click me.</button>
+</body>
+</html>
