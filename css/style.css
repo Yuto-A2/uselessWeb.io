@@ -296,7 +296,16 @@ html body {
 
 #btn {
     margin-left: 250px;
+    font-size: 1.2rem;
     display: none;
+    height: 50px;
+    width: 100px;
+    background-color: #B9F5A4;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: pink;
 }
 
 #winner {
